@@ -1,0 +1,41 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3469782, 2017-10-21T06:42:33-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: AvenirLTStd-Heavy by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir/85-heavy/
+ * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ *
+ * Webfont: AvenirLTStd-Medium by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir/65-medium/
+ * Copyright: Copyright &#x00A9; 1981 - 2006 Linotype GmbH, www.linotype.com. All rights reserved. Copyright &#x00A9; 1989 - 2002 Adobe Systems Incorporated.  All Rights Reserved.
+ *
+ * Webfont: AvenirLTStd-Light by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/avenir/35-light/
+ * Copyright: Copyright &#x00A9; 1989, 1995, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1995, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ *
+ *
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3469782
+ * Licensed pageviews: 250,000
+ *
+ * © 2017 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/34f1d6");
+
+
+@font-face {font-family: 'AvenirLTStd-Heavy';src: url('../webfonts/34F1D6_0_0.eot');src: url('../webfonts/34F1D6_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/34F1D6_0_0.woff2') format('woff2'),url('../webfonts/34F1D6_0_0.woff') format('woff'),url('../webfonts/34F1D6_0_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'AvenirLTStd-Medium';src: url('../webfonts/34F1D6_1_0.eot');src: url('../webfonts/34F1D6_1_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/34F1D6_1_0.woff2') format('woff2'),url('../webfonts/34F1D6_1_0.woff') format('woff'),url('../webfonts/34F1D6_1_0.ttf') format('truetype');}
+
+
+@font-face {font-family: 'AvenirLTStd-Light';src: url('../webfonts/34F1D6_2_0.eot');src: url('../webfonts/34F1D6_2_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/34F1D6_2_0.woff2') format('woff2'),url('../webfonts/34F1D6_2_0.woff') format('woff'),url('../webfonts/34F1D6_2_0.ttf') format('truetype');}
