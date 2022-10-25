@@ -113,6 +113,22 @@
         <div class='embed-container'>
             <iframe src="https://player.vimeo.com/video/297736188?color=ffffff&title=0&byline=0&portrait=0" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
         </div>
+		<div class="video-wrapper">
+			<div class="video-container" id="video-container">
+				<video controls id="video" preload="metadata" poster="/images/projects/11001_b.jpg">
+					<source src="http://staging.mickeyvanolst.com/vimeo_backup/fireflies%20(Original).mp4" type="video/mp4">
+				</video>
+		
+				<div class="play-button-wrapper">
+					<div title="Play video" class="play-gif" id="circle-play-b">
+						<!-- SVG Play Button -->
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+							<path d="M40 0a40 40 0 1040 40A40 40 0 0040 0zM26 61.56V18.44L64 40z" />
+						</svg>
+					</div>
+				</div>
+			</div>
+		</div>
                 </figure>
         
                 <div class="col-outer">
@@ -163,6 +179,28 @@
 
 	<script type="text/javascript" src="https://mickeyvanolst.com/js/vendor/jquery.fitvids.js"></script>
 	<script type="text/javascript" src="https://mickeyvanolst.com/js/main.js"></script>
+
+	<script type="text/javascript">
+		const video = document.getElementById("video");
+		const circlePlayButton = document.getElementById("circle-play-b");
+
+		function togglePlay() {
+			if (video.paused || video.ended) {
+				video.play();
+			} else {
+				video.pause();
+			}
+		}
+
+		circlePlayButton.addEventListener("click", togglePlay);
+		video.addEventListener("playing", function () {
+			circlePlayButton.style.opacity = 0;
+		});
+		video.addEventListener("pause", function () {
+			circlePlayButton.style.opacity = 1;
+		});
+
+	</script>
 </body>
 </html>
 

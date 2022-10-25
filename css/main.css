@@ -456,8 +456,8 @@ article a {
 
 
 #project-page .video-container {
-	width: 640px;
-	border-radius: 4px;
+	/* width: 640px; */
+	/* border-radius: 4px; */
 	margin: 0 auto;
 	position: relative;
 	display: flex;
